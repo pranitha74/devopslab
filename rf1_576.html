@@ -1,5 +1,3 @@
-Event Registration Form program
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -108,7 +106,10 @@ Event Registration Form program
       </div>
     </form>
   </div>
-
+	<div class="input-box">
+	<label for="phNo">Alternate phone number </label>
+	<input type="text" id="phNo" name="phNo" pattern="\d{10}">
+	</div>
   <script>
     const form = document.getElementById('regForm');
     const successmsg = document.getElementById('successmsg');
@@ -121,16 +122,3 @@ Event Registration Form program
   </script>
 </body>
 </html>
-Output 
-Event Registration
-
-First Name:     [_]
-Last Name:      [_]
-Email:          [_]
-Phone Number:   [_]
-
-[  Register  ]
-
-(After clicking Register and successful submission)
-
-Thank You For Registering :)
