@@ -2,3 +2,6 @@
 ##Chapter 1:The First Commit
 In the beginning, there was only an empty repository.
 A lone developer wrote the very first file, marking the root commit.
+
+##Chapter 3: The Merge
+The ranches, though diffrent, were never truly into one flow again.
